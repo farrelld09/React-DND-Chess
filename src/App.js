@@ -13,9 +13,3 @@ export default class Square extends Component {
 Square.propTypes = {
   black: PropTypes.bool
 };
-
-export default class Knight extends Component {
-  render() {
-    return <span>♘</span>;
-  }
-}
